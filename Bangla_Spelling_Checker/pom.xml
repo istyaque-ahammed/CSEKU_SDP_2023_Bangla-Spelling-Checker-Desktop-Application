@@ -9,6 +9,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
-        <exec.mainClass>com.mycompany.bangla_spelling_checker.Bangla_Spelling_Checker</exec.mainClass>
+        <exec.mainClass>Bangla_Spelling_Checker.Bangla_Spelling_Checker</exec.mainClass>
     </properties>
 </project>
