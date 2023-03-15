@@ -63,8 +63,8 @@ public class introduction extends JFrame {
                 }
                 if (i == 100) {
                     frame.dispose();
-                    //  Notepad home_page = new Notepad();
-                  //  home_page.setVisible(true);
+                    TextEditor home_page = new TextEditor();
+                    home_page.setVisible(true);
                 }
             } catch (Exception e) {
                 e.printStackTrace();
