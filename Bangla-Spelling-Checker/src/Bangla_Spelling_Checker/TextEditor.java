@@ -45,52 +45,57 @@ public class TextEditor extends JFrame implements ActionListener {
     TextEditor() {
         c = this.getContentPane();
         c.setLayout(null);
-        newIcon = new ImageIcon("src/Image/new.png");
+        newIcon = new ImageIcon("src/Images/new.png");
         Image newIcon1 = newIcon.getImage(); // transform it
         Image newimg = newIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         newIcon = new ImageIcon(newimg);
-        exitIcon = new ImageIcon("src/Image/exit.png");
+        exitIcon = new ImageIcon("src/Images/exit.png");
         Image exitIcon1 = exitIcon.getImage(); // transform it
         Image exitimg = exitIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         exitIcon = new ImageIcon(exitimg);
-        openIcon = new ImageIcon("src/Image/open.png");
+        openIcon = new ImageIcon("src/Images/open.png");
         Image openIcon1 = openIcon.getImage(); // transform it
         Image openimg = openIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         openIcon = new ImageIcon(openimg);
-        saveIcon = new ImageIcon("src/Image/save.png");
+        saveIcon = new ImageIcon("src/Images/save.png");
         Image saveIcon1 = saveIcon.getImage(); // transform it
         Image saveimg = saveIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         saveIcon = new ImageIcon(saveimg);
-        cutIcon = new ImageIcon("src/Image/cut.png");
+        cutIcon = new ImageIcon("src/Images/cut.png");
         Image cutIcon1 = cutIcon.getImage(); // transform it
         Image cutimg = cutIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         cutIcon = new ImageIcon(cutimg);
-        copyIcon = new ImageIcon("src/Image/copy.png");
+        copyIcon = new ImageIcon("src/Images/copy.png");
         Image copyIcon1 = copyIcon.getImage(); // transform it
         Image copyimg = copyIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         copyIcon = new ImageIcon(copyimg);
-        pasteIcon = new ImageIcon("src/Image/paste.png");
+        pasteIcon = new ImageIcon("src/Images/paste.png");
         Image pasteIcon1 = pasteIcon.getImage(); // transform it
         Image pasteimg = pasteIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         pasteIcon = new ImageIcon(pasteimg);
-        selectIcon = new ImageIcon("src/Image/select.png");
+        selectIcon = new ImageIcon("src/Images/select.png");
         Image selectIcon1 = selectIcon.getImage();
         Image selectimg = selectIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         selectIcon = new ImageIcon(selectimg);
-        darkIcon = new ImageIcon("src/Image/dark.jpg");
+        darkIcon = new ImageIcon("src/Images/dark.jpg");
         Image darkIcon1 = darkIcon.getImage(); // transform it
         Image darkImg = darkIcon1.getScaledInstance(40, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         darkIcon = new ImageIcon(darkImg);
-        lightIcon = new ImageIcon("src/Image/light.jpg");
+        lightIcon = new ImageIcon("src/Images/light.jpg");
         Image lightIcon1 = lightIcon.getImage(); // transform it
         Image lightImg = lightIcon1.getScaledInstance(40, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         lightIcon = new ImageIcon(lightImg);
         menu = new JMenuBar();
-        file = new JMenu("File");
-        edit = new JMenu("Edit");
-        spellCheck = new JMenu("Spell Checker");
-        help = new JMenu("Help");
-        theme = new JMenu("Theme");
+        file = new JMenu("ফাইল");
+        file.setFont(new Font("Kalpurush", Font.BOLD, 18));
+        edit = new JMenu("এডিট");
+        edit.setFont(new Font("Kalpurush", Font.BOLD, 18));
+        spellCheck = new JMenu("বানান সংশোধন");
+        spellCheck.setFont(new Font("Kalpurush", Font.BOLD, 18));
+        help = new JMenu("হেল্প");
+        help.setFont(new Font("Kalpurush", Font.BOLD, 18));
+        theme = new JMenu("মোড");
+        theme.setFont(new Font("Kalpurush", Font.BOLD, 18));
         menu.add(file);
         menu.add(edit);
         menu.add(spellCheck);
@@ -300,8 +305,8 @@ public class TextEditor extends JFrame implements ActionListener {
             }
         } else if (e.getSource() == lightItem) {
             text.setBackground(Color.white);
-            lightItem.setText("*Light Mode");
-            darkItem.setText("Night Mode");
+            lightItem.setText("Light Mode");
+            darkItem.setText("Dark Mode");
             menu.setBackground(new Color(229, 229, 229));
             text.setForeground(Color.black);
             help.setForeground(Color.black);
@@ -311,7 +316,7 @@ public class TextEditor extends JFrame implements ActionListener {
             file.setForeground(Color.black);
         } else if (e.getSource() == darkItem) {
             text.setBackground(new Color(39, 40, 34));
-            darkItem.setText("*Night Mode");
+            darkItem.setText("Dark Mode");
             lightItem.setText("Light Mode");
             help.setForeground(Color.white);
             theme.setForeground(Color.white);
