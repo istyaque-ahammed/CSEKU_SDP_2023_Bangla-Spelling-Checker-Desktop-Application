@@ -193,7 +193,7 @@ public class TextEditor extends JFrame implements ActionListener {
                         JOptionPane.WARNING_MESSAGE);
             } else {
                 JFileChooser fchoose = new JFileChooser();
-                int option = fchoose.showSaveDialog(Notepad.this);
+                int option = fchoose.showSaveDialog(TextEditor.this);
                 if (option == JFileChooser.APPROVE_OPTION) {
                     String name = fchoose.getSelectedFile().getName();
                     String path = fchoose.getSelectedFile().getParentFile().getPath();
@@ -278,7 +278,7 @@ public class TextEditor extends JFrame implements ActionListener {
                     text.setText("");
                     break;
                 }
-                try {
+                /*try {
                     Spell spell = new Spell(path);
                     if (spell.trueString(temp)) {
                         s = temp + " ";
@@ -296,7 +296,7 @@ public class TextEditor extends JFrame implements ActionListener {
                     }
                 } catch (Exception e1) {
                     e1.printStackTrace();
-                }
+                }*/
             }
         } else if (e.getSource() == lightItem) {
             text.setBackground(Color.white);
@@ -323,6 +323,6 @@ public class TextEditor extends JFrame implements ActionListener {
         }
     }
     public static void main(String[] args) throws Exception {
-        Notepad demo = new Notepad();
+        TextEditor demo = new TextEditor();
     }
 }

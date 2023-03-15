@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6ac7c73-fc34-428e-a9e9-8ad90888bbaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dictionary.java" beforeDir="false" />
-    </list>
+    <list default="true" id="e6ac7c73-fc34-428e-a9e9-8ad90888bbaf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
