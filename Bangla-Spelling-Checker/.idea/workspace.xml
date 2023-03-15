@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6ac7c73-fc34-428e-a9e9-8ad90888bbaf" name="Changes" comment="" />
+    <list default="true" id="e6ac7c73-fc34-428e-a9e9-8ad90888bbaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Dictionary.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,5 +59,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Bangla_Spelling_Checker$Main.ic" NAME="Main Coverage Results" MODIFIED="1678826311299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Bangla_Spelling_Checker.*</FILTER>
+    </SUITE>
   </component>
 </project>
