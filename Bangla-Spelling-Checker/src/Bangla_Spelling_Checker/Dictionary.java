@@ -1,4 +1,4 @@
-package Bangla_Spell_Checker;
+package Bangla_Spelling_Checker;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

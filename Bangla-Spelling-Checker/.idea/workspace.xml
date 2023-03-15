@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6ac7c73-fc34-428e-a9e9-8ad90888bbaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dictionary.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
