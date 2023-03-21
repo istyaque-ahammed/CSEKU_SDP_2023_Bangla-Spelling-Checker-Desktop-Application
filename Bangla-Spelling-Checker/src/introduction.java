@@ -51,7 +51,7 @@ public class introduction extends JFrame {
         int i = 0;
         while (i <= 100) {
             try {
-                Thread.sleep(100);
+                Thread.sleep(75);
                 progressBar.setValue(i);
                 message.setText("দয়া করে অপেক্ষা করুন");
                 i++;

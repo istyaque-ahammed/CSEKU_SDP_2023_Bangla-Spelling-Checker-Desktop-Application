@@ -12,11 +12,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.TreeSet;
 import javax.swing.ImageIcon;
-import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -35,8 +31,12 @@ public class TextEditor extends JFrame implements ActionListener {
     static String s, temp, path;
     ImageIcon cutIcon, copyIcon, pasteIcon, selectIcon, exitIcon, newIcon, openIcon, saveIcon, darkIcon, lightIcon;
     static JMenuBar menu;
-    JMenu file, edit, help, view, spellCheck, theme;
-    JMenuItem newItem, openItem, exitItem, cutItem, copyItem, pasteItem, clearallItem, selectallItem, saveItem, about,
+    JMenu file;
+    JMenu edit;
+    JMenu help;
+    JMenu spellCheck;
+    JMenu theme;
+    JMenuItem newItem, openItem, exitItem, cutItem, copyItem, pasteItem, clearallItem, selectallItem, saveItem, contact,
             spellChecknow;
     static JMenuItem darkItem, lightItem;
     static int i;
@@ -92,15 +92,15 @@ public class TextEditor extends JFrame implements ActionListener {
         edit.setFont(new Font("Kalpurush", Font.BOLD, 18));
         spellCheck = new JMenu("বানান সংশোধন");
         spellCheck.setFont(new Font("Kalpurush", Font.BOLD, 18));
-        help = new JMenu("হেল্প");
-        help.setFont(new Font("Kalpurush", Font.BOLD, 18));
         theme = new JMenu("মোড");
         theme.setFont(new Font("Kalpurush", Font.BOLD, 18));
+        help = new JMenu("হেল্প");
+        help.setFont(new Font("Kalpurush", Font.BOLD, 18));
         menu.add(file);
         menu.add(edit);
         menu.add(spellCheck);
         menu.add(theme);
-        //menu.add(help);
+        menu.add(help);
         newItem = new JMenuItem("নতুন");
         newItem.setFont(new Font("Kalpurush", Font.BOLD, 15));
         newItem.setIcon(newIcon);
@@ -135,13 +135,14 @@ public class TextEditor extends JFrame implements ActionListener {
         clearallItem.setFont(new Font("Kalpurush", Font.BOLD, 15));
         spellChecknow = new JMenuItem("বানান পরীক্ষা করুন");
         spellChecknow.setFont(new Font("Kalpurush", Font.BOLD, 15));
-        darkItem = new JMenuItem("ডার্ক থিম");
+        darkItem = new JMenuItem("ডার্ক মোড");
         darkItem.setFont(new Font("Kalpurush", Font.BOLD, 15));
         darkItem.setIcon(darkIcon);
-        lightItem = new JMenuItem("লাইট থিম");
+        lightItem = new JMenuItem("লাইট মোড");
         lightItem.setFont(new Font("Kalpurush", Font.BOLD, 15));
         lightItem.setIcon(lightIcon);
-        about = new JMenuItem("About");
+        contact = new JMenuItem("যোগাযোগ");
+        contact.setFont(new Font("Kalpurush", Font.BOLD, 15));
         file.add(newItem);
         file.add(openItem);
         file.add(saveItem);
@@ -154,10 +155,10 @@ public class TextEditor extends JFrame implements ActionListener {
         spellCheck.add(spellChecknow);
         theme.add(lightItem);
         theme.add(darkItem);
-        help.add(about);
+        help.add(contact);
         newItem.addActionListener(this);
         exitItem.addActionListener(this);
-        about.addActionListener(this);
+        contact.addActionListener(this);
         saveItem.addActionListener(this);
         openItem.addActionListener(this);
         cutItem.addActionListener(this);
@@ -173,7 +174,7 @@ public class TextEditor extends JFrame implements ActionListener {
         this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setBounds(350, 25, 650, 680);
-        this.setTitle("Spell Checker");
+        this.setTitle("বাংলা বানান সংশোধন");
         this.setJMenuBar(menu);
         ImageIcon frameIcon = new ImageIcon("src/Image/note.jpg");
         Image frameIcon1 = frameIcon.getImage(); // transform it
@@ -201,8 +202,8 @@ public class TextEditor extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(null, "File Exit");
                 System.exit(0);
             }
-        } else if (e.getSource() == about) {
-            new About();
+        } else if (e.getSource() == contact) {
+            new Contact();
         } else if (e.getSource() == saveItem) {
             // System.out.println(text.getText());
             if (text.getText().equals("")) {
@@ -317,8 +318,10 @@ public class TextEditor extends JFrame implements ActionListener {
             }
         } else if (e.getSource() == lightItem) {
             text.setBackground(Color.white);
-            lightItem.setText("Light Mode");
-            darkItem.setText("Dark Mode");
+            lightItem.setText("লাইট মোড");
+            lightItem.setFont(new Font("Kalpurush", Font.BOLD, 15));
+            darkItem.setText("ডার্ক মোড");
+            darkItem.setFont(new Font("Kalpurush", Font.BOLD, 15));
             menu.setBackground(new Color(229, 229, 229));
             text.setForeground(Color.black);
             help.setForeground(Color.black);
@@ -328,8 +331,10 @@ public class TextEditor extends JFrame implements ActionListener {
             file.setForeground(Color.black);
         } else if (e.getSource() == darkItem) {
             text.setBackground(new Color(39, 40, 34));
-            darkItem.setText("Dark Mode");
-            lightItem.setText("Light Mode");
+            darkItem.setText("ডার্ক মোড");
+            darkItem.setFont(new Font("Kalpurush", Font.BOLD, 15));
+            lightItem.setText("লাইট মোড");
+            lightItem.setFont(new Font("Kalpurush", Font.BOLD, 15));
             help.setForeground(Color.white);
             theme.setForeground(Color.white);
             spellCheck.setForeground(Color.white);
