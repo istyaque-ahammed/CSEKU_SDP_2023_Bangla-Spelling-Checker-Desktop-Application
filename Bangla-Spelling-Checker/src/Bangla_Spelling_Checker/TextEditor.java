@@ -207,8 +207,8 @@ public class TextEditor extends JFrame implements ActionListener {
         } else if (e.getSource() == saveItem) {
             // System.out.println(text.getText());
             if (text.getText().equals("")) {
-                JOptionPane.showMessageDialog(null, "Can't save empty file", "সতর্কতা",JOptionPane.WARNING_MESSAGE);
-
+                JOptionPane.showMessageDialog(null, "Empty file.Can't save this file", "Alert",
+                        JOptionPane.WARNING_MESSAGE);
             } else {
                 JFileChooser fchoose = new JFileChooser();
                 int option = fchoose.showSaveDialog(TextEditor.this);
@@ -225,7 +225,7 @@ public class TextEditor extends JFrame implements ActionListener {
                         System.out.println(e1);
                     }
                 } else {
-                    JOptionPane.showMessageDialog(null, "The user cancelled the operation", "সতর্কতা",
+                    JOptionPane.showMessageDialog(null, "The user cancelled the operation", "Alert",
                             JOptionPane.WARNING_MESSAGE);
                 }
             }
@@ -250,7 +250,7 @@ public class TextEditor extends JFrame implements ActionListener {
                     JOptionPane.showMessageDialog(null, evt.getMessage());
                 }
             } else {
-                JOptionPane.showMessageDialog(null, "The user cancelled the operation", "সতর্কতা",
+                JOptionPane.showMessageDialog(null, "The user cancelled the operation", "Alert",
                         JOptionPane.WARNING_MESSAGE);
             }
         } else if (e.getSource() == cutItem) {
@@ -296,7 +296,7 @@ public class TextEditor extends JFrame implements ActionListener {
                     text.setText("");
                     break;
                 }
-                try {
+                /*try {
                     Spell spell = new Spell(path);
                     if (spell.trueString(temp)) {
                         s = temp + " ";
@@ -305,16 +305,16 @@ public class TextEditor extends JFrame implements ActionListener {
                         s = temp + " ";
                         // text.setText(s);
                     } else {
-                        new Suggested_word();
-					System.out.println(Spell.error);
-					if(Spell.error==1) {
-						s = "প্রস্তাবিত শব্দ ";
-					}
+                        new suggested_word();
+//					System.out.println(Spell.error);
+//					if(Spell.error==1) {
+//						s = "প্রস্তাবিত শব্দ ";
+//					}
                         // System.out.println(path);
                     }
                 } catch (Exception e1) {
                     e1.printStackTrace();
-                }
+                }*/
             }
         } else if (e.getSource() == lightItem) {
             text.setBackground(Color.white);
