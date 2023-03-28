@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6ac7c73-fc34-428e-a9e9-8ad90888bbaf" name="Changes" comment="" />
+    <list default="true" id="e6ac7c73-fc34-428e-a9e9-8ad90888bbaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Suggested_word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/TextEditor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +60,7 @@
       <workItem from="1678867476538" duration="2823000" />
       <workItem from="1679425071298" duration="3601000" />
       <workItem from="1679428763926" duration="201000" />
+      <workItem from="1680021169354" duration="1409000" />
     </task>
     <servers />
   </component>
