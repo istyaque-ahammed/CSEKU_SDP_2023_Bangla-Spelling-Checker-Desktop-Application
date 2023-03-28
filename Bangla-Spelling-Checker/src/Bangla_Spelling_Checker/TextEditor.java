@@ -207,8 +207,8 @@ public class TextEditor extends JFrame implements ActionListener {
         } else if (e.getSource() == saveItem) {
             // System.out.println(text.getText());
             if (text.getText().equals("")) {
-                JOptionPane.showMessageDialog(null, "Empty file.Can't save this file", "Alert",
-                        JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Can't save empty file", "সতর্কতা",JOptionPane.WARNING_MESSAGE);
+
             } else {
                 JFileChooser fchoose = new JFileChooser();
                 int option = fchoose.showSaveDialog(TextEditor.this);
@@ -225,7 +225,7 @@ public class TextEditor extends JFrame implements ActionListener {
                         System.out.println(e1);
                     }
                 } else {
-                    JOptionPane.showMessageDialog(null, "The user cancelled the operation", "Alert",
+                    JOptionPane.showMessageDialog(null, "The user cancelled the operation", "সতর্কতা",
                             JOptionPane.WARNING_MESSAGE);
                 }
             }
@@ -250,7 +250,7 @@ public class TextEditor extends JFrame implements ActionListener {
                     JOptionPane.showMessageDialog(null, evt.getMessage());
                 }
             } else {
-                JOptionPane.showMessageDialog(null, "The user cancelled the operation", "Alert",
+                JOptionPane.showMessageDialog(null, "The user cancelled the operation", "সতর্কতা",
                         JOptionPane.WARNING_MESSAGE);
             }
         } else if (e.getSource() == cutItem) {
