@@ -289,14 +289,15 @@ public class TextEditor extends JFrame implements ActionListener {
                     continue;
                 }
 //					System.out.println(words[i].charAt(0));
-                Filecontroller file = new Filecontroller(temp);
+                Filecontroller file;
+                file = new Filecontroller(temp);
                 path = file.pathName();
                 if (path == null) {
                     JOptionPane.showMessageDialog(null, "Invalid Text");
                     text.setText("");
                     break;
                 }
-                /*try {
+                try {
                     Spell spell = new Spell(path);
                     if (spell.trueString(temp)) {
                         s = temp + " ";
@@ -306,15 +307,15 @@ public class TextEditor extends JFrame implements ActionListener {
                         // text.setText(s);
                     } else {
                         new suggested_word();
-//					System.out.println(Spell.error);
-//					if(Spell.error==1) {
-//						s = "প্রস্তাবিত শব্দ ";
-//					}
+					System.out.println(Spell.error);
+					if(Spell.error==1) {
+						s = "প্রস্তাবিত শব্দ ";
+					}
                         // System.out.println(path);
                     }
                 } catch (Exception e1) {
                     e1.printStackTrace();
-                }*/
+                }
             }
         } else if (e.getSource() == lightItem) {
             text.setBackground(Color.white);

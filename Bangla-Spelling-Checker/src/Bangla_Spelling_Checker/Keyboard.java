@@ -1,18 +1,19 @@
 package Bangla_Spelling_Checker;
 
-        import java.awt.BorderLayout;
-        import java.awt.Color;
-        import java.awt.Container;
-        import java.awt.EventQueue;
-        import java.awt.Font;
-        import java.awt.event.ActionEvent;
-        import java.awt.event.ActionListener;
 
-        import javax.swing.JButton;
-        import javax.swing.JFrame;
-        import javax.swing.JLabel;
-        import javax.swing.JPanel;
-        import javax.swing.border.EmptyBorder;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
 
 public class Keyboard extends JFrame implements ActionListener {
     char[] ch = { '\u09BE', '\u09BF', '\u09C0', '\u09C1', '\u09C2', '\u09C3', '\u09C7', '\u09C8', '\u09CB', '\u09CC',
@@ -156,4 +157,3 @@ public class Keyboard extends JFrame implements ActionListener {
         TextEditor.text.append(s);
     }
 }
-

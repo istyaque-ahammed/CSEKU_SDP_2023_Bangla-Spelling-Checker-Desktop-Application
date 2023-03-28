@@ -1,34 +1,33 @@
-
 package Bangla_Spelling_Checker;
 
-        import java.awt.Color;
-        import java.awt.Container;
-        import java.awt.EventQueue;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.EventQueue;
 
-        import javax.swing.JFrame;
-        import javax.swing.JPanel;
-        import javax.swing.JScrollPane;
-        import javax.swing.JTable;
-        import javax.swing.border.EmptyBorder;
-        import javax.swing.table.DefaultTableModel;
-        import javax.swing.JTextField;
-        import javax.swing.JLabel;
-        import javax.swing.JOptionPane;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
-        import java.awt.Font;
-        import java.awt.event.ActionEvent;
-        import java.awt.event.ActionListener;
-        import java.awt.event.MouseEvent;
-        import java.awt.event.MouseListener;
-        import java.awt.event.WindowEvent;
-        import java.util.Iterator;
-        import java.util.TreeSet;
-        import java.util.Vector;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.WindowEvent;
+import java.util.Iterator;
+import java.util.TreeSet;
+import java.util.Vector;
 
-        import javax.swing.JTextArea;
-        import javax.swing.JButton;
+import javax.swing.JTextArea;
+import javax.swing.JButton;
 
-public class Suggested_word extends JFrame implements ActionListener {
+public class suggested_word extends JFrame implements ActionListener {
     JPanel contentPane;
     JTextField not_found;
     JLabel selectlabel;
@@ -38,18 +37,18 @@ public class Suggested_word extends JFrame implements ActionListener {
     JButton ignore, closeb, adddic, changeB;
     DefaultTableModel model;
     private JTable table_1;
-    int j = j =TextEditor.i;
+    int j = j = TextEditor.i;
     static TreeSet<String> correctStrings;
 
     public static void main(String[] args) {
         try {
-            new Suggested_word();
+            new suggested_word();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public Suggested_word() throws Exception {
+    public suggested_word() throws Exception {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(450, 135, 500, 500);
         contentPane = new JPanel();
@@ -177,7 +176,7 @@ public class Suggested_word extends JFrame implements ActionListener {
             dispose();
         } else if (e.getSource() == changeB) {
             String from = not_found.getText();
-            int start =TextEditor.text.getText().indexOf(from);
+            int start = TextEditor.text.getText().indexOf(from);
             if (start >= 0 && from.length() > 0) {
                 TextEditor.text.replaceRange(change.getText(), start, start + from.length());
             }
