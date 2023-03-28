@@ -296,7 +296,7 @@ public class TextEditor extends JFrame implements ActionListener {
                     text.setText("");
                     break;
                 }
-                try {
+                /*try {
                     Spell spell = new Spell(path);
                     if (spell.trueString(temp)) {
                         s = temp + " ";
@@ -305,16 +305,16 @@ public class TextEditor extends JFrame implements ActionListener {
                         s = temp + " ";
                         // text.setText(s);
                     } else {
-                        new Suggested_word();
-					System.out.println(Spell.error);
-					if(Spell.error==1) {
-						s = "প্রস্তাবিত শব্দ ";
-					}
+                        new suggested_word();
+//					System.out.println(Spell.error);
+//					if(Spell.error==1) {
+//						s = "প্রস্তাবিত শব্দ ";
+//					}
                         // System.out.println(path);
                     }
                 } catch (Exception e1) {
                     e1.printStackTrace();
-                }
+                }*/
             }
         } else if (e.getSource() == lightItem) {
             text.setBackground(Color.white);
