@@ -299,14 +299,14 @@ public class TextEditor extends JFrame implements ActionListener {
                 }
                 try {
                     Spell spell = new Spell(path);
-                    if (spell.trueString(temp)) {
+                    if (Spell.trueString(temp)) {
                         s = temp + " ";
                         // text.setText(s);
                     } else if (Dictionary.searchword(temp)) {
                         s = temp + " ";
                         // text.setText(s);
                     } else {
-                        new suggested_word();
+                        new Suggested_word();
 					System.out.println(Spell.error);
 					if(Spell.error==1) {
 						s = "প্রস্তাবিত শব্দ ";

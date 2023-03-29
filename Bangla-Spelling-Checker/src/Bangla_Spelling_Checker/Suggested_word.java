@@ -27,7 +27,7 @@ import java.util.Vector;
 import javax.swing.JTextArea;
 import javax.swing.JButton;
 
-public class suggested_word extends JFrame implements ActionListener {
+public class Suggested_word extends JFrame implements ActionListener {
     JPanel contentPane;
     JTextField not_found;
     JLabel selectlabel;
@@ -42,13 +42,13 @@ public class suggested_word extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         try {
-            new suggested_word();
+            new Suggested_word();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public suggested_word() throws Exception {
+    public Suggested_word() throws Exception {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(450, 135, 500, 500);
         contentPane = new JPanel();
