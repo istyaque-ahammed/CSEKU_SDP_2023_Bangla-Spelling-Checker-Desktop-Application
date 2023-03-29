@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="063cccd0-20f0-4987-8678-bb441ca29d79" name="Changes" comment="" />
+    <list default="true" id="56b6b43b-7ce5-42ca-9905-8ce44c02bddb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Suggested_word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/TextEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dic_index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Dic_index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filecontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Filecontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/introduction.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,29 +23,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2NegQNa0hiea6GMzaOmIkmi9kEq" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NehYdqZQJjLufEwE2jPM57q9xW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="063cccd0-20f0-4987-8678-bb441ca29d79" name="Changes" comment="" />
-      <created>1680029952214</created>
+      <changelist id="56b6b43b-7ce5-42ca-9905-8ce44c02bddb" name="Changes" comment="" />
+      <created>1680030510479</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680029952214</updated>
-      <workItem from="1680029954661" duration="82000" />
-      <workItem from="1680030104793" duration="108000" />
+      <updated>1680030510479</updated>
+      <workItem from="1680030513423" duration="229000" />
+      <workItem from="1680030829278" duration="60000" />
+      <workItem from="1680031901043" duration="85000" />
+      <workItem from="1680074889536" duration="1198000" />
     </task>
     <servers />
   </component>

@@ -11,14 +11,14 @@ import java.util.Map.Entry;
 import java.util.TreeSet;
 
 public class Dictionary {
-    static String path = "File\\dic.txt";
+    static String path = "Dictionary\\dic.txt";
     static LinkedHashMap<Integer, String> mp = new LinkedHashMap<>();
     static LinkedHashMap<Integer, Character> map = new LinkedHashMap<>();
     static TreeSet<String> correct_word = new TreeSet<>();
     static ArrayList<String> words = new ArrayList<>();
     static int alphabet_number = 64;
 
-    static class Node {
+    public static class Node {
         int size = 65;
         Node[] nodes = new Node[70];
         int freq = 0;
