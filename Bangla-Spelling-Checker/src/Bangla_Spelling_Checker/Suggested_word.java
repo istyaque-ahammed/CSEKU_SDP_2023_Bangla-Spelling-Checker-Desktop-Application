@@ -27,7 +27,7 @@ import java.util.Vector;
 import javax.swing.JTextArea;
 import javax.swing.JButton;
 
-public class Suggested_word extends JFrame implements ActionListener {
+public class suggested_word extends JFrame implements ActionListener {
     JPanel contentPane;
     JTextField not_found;
     JLabel selectlabel;
@@ -42,13 +42,13 @@ public class Suggested_word extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         try {
-            new Suggested_word();
+            new suggested_word();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public Suggested_word() throws Exception {
+    public suggested_word() throws Exception {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(450, 135, 500, 500);
         contentPane = new JPanel();
@@ -72,7 +72,7 @@ public class Suggested_word extends JFrame implements ActionListener {
         not_foundlabel.setBounds(24, 0, 194, 47);
         contentPane.add(not_foundlabel);
 
-        selectlabel = new JLabel("Select from Suggestions(s):");
+        selectlabel = new JLabel("Select from Suggestions:");
         // selectlabel.setForeground(Color.white);
         selectlabel.setFont(new Font("Tahoma", Font.BOLD, 13));
         selectlabel.setBounds(24, 89, 194, 37);
@@ -161,7 +161,7 @@ public class Suggested_word extends JFrame implements ActionListener {
         contentPane.add(closeb);
         this.setVisible(true);
         this.getContentPane().setLayout(null);
-        this.setTitle("Bangla Spell Checker");
+        this.setTitle("বাংলা বানান সংশোধন");
         this.setResizable(false);
     }
 

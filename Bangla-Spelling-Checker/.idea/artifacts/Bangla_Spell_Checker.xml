@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bangla Spell Checker">
+    <output-path>$PROJECT_DIR$/../../../../../sdvs</output-path>
+    <root id="archive" name="Bangla Spell Checker.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/Bangla_Spelling_Checker/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

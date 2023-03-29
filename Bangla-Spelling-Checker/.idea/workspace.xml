@@ -1,32 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Bangla Spell Checker" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b6b43b-7ce5-42ca-9905-8ce44c02bddb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Spell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Suggested_word.java" afterDir="false" />
+    <list default="true" id="5f68f92b-f39b-4c93-8d1f-59d104c71244" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Spell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Suggested_word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Suggested_word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/TextEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dic_index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Dic_index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Filecontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/Filecontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bangla_Spelling_Checker/introduction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../../../../" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ea8d0b3e-eed7-4160-ae5d-a8436f7c8da0" />
+        <option name="url" value="https://github.com/istyaque-ahammed/Bangla-Spelling-Checker-Desktop-Application.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2NehYdqZQJjLufEwE2jPM57q9xW" />
+  <component name="ProjectId" id="2NeT91zpjLEQSxUxseoP1xd62gu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,29 +62,53 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/3-1 term/CSE 3106 Software Development Project/Bangla-Spelling-Checker-Desktop-Application/Bangla-Spelling-Checker",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56b6b43b-7ce5-42ca-9905-8ce44c02bddb" name="Changes" comment="" />
-      <created>1680030510479</created>
+      <changelist id="5f68f92b-f39b-4c93-8d1f-59d104c71244" name="Changes" comment="" />
+      <created>1680023396455</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680030510479</updated>
-      <workItem from="1680030513423" duration="229000" />
-      <workItem from="1680030829278" duration="60000" />
-      <workItem from="1680031901043" duration="85000" />
-      <workItem from="1680074889536" duration="1198000" />
+      <updated>1680023396455</updated>
+      <workItem from="1680023398142" duration="5770000" />
+      <workItem from="1680029275894" duration="43000" />
+      <workItem from="1680029336709" duration="10000" />
+      <workItem from="1680029350788" duration="8000" />
+      <workItem from="1680029422603" duration="22000" />
+      <workItem from="1680029471160" duration="121000" />
+      <workItem from="1680029613642" duration="174000" />
+      <workItem from="1680030135547" duration="18000" />
+      <workItem from="1680030372371" duration="12000" />
+      <workItem from="1680030441412" duration="174000" />
+      <workItem from="1680030652635" duration="13000" />
+      <workItem from="1680030743065" duration="999000" />
+      <workItem from="1680031791857" duration="104000" />
+      <workItem from="1680077234533" duration="1987000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
