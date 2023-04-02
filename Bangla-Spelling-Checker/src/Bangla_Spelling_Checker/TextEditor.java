@@ -306,7 +306,7 @@ public class TextEditor extends JFrame implements ActionListener {
                         s = temp + " ";
                         // text.setText(s);
                     } else {
-                        new suggested_word();
+                        new Suggested_word();
 					System.out.println(Spell.error);
 					if(Spell.error==1) {
 						s = "প্রস্তাবিত শব্দ ";
