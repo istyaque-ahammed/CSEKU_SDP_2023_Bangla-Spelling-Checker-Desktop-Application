@@ -1,20 +1,11 @@
 package Bangla_Spelling_Checker;
 
-import java.awt.Color;
-import java.awt.Container;
-import java.awt.EventQueue;
+import java.awt.*;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
+import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.JTextField;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 
-import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
@@ -23,9 +14,6 @@ import java.awt.event.WindowEvent;
 import java.util.Iterator;
 import java.util.TreeSet;
 import java.util.Vector;
-
-import javax.swing.JTextArea;
-import javax.swing.JButton;
 
 public class Suggested_word extends JFrame implements ActionListener {
     JPanel contentPane;
@@ -163,6 +151,11 @@ public class Suggested_word extends JFrame implements ActionListener {
         this.getContentPane().setLayout(null);
         this.setTitle("বাংলা বানান সংশোধন");
         this.setResizable(false);
+        ImageIcon frameIcon = new ImageIcon("src/Images/note.jpg");
+        Image frameIcon1 = frameIcon.getImage(); // transform it
+        Image frameimg = frameIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
+        frameIcon = new ImageIcon(frameimg);
+        this.setIconImage(frameimg);
     }
 
     @Override

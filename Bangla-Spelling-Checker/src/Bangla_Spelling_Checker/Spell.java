@@ -214,7 +214,7 @@ public class Spell extends Filecontroller {
             sb.deleteCharAt(sb.length() - 1);
         }
         if (word.charAt(0) == '\u0996') {
-            String path = "C:\\Users\\SUMAIAH\\Documents\\eclips\\Bangla_Spell_Checker_SPL1\\File\\ক্ষ.txt";
+            String path = "Dictionary\\\\ক্ষ.txt\"";
             String s = "ক্ষ" + word.substring(1);
             // System.out.println(s);
             this.dictionary = construct(path);

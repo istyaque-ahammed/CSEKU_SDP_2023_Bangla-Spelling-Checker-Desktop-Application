@@ -176,7 +176,7 @@ public class TextEditor extends JFrame implements ActionListener {
         this.setBounds(350, 25, 650, 680);
         this.setTitle("বাংলা বানান সংশোধন");
         this.setJMenuBar(menu);
-        ImageIcon frameIcon = new ImageIcon("src/Image/note.jpg");
+        ImageIcon frameIcon = new ImageIcon("src/Images/note.jpg");
         Image frameIcon1 = frameIcon.getImage(); // transform it
         Image frameimg = frameIcon1.getScaledInstance(20, 20, java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
         frameIcon = new ImageIcon(frameimg);

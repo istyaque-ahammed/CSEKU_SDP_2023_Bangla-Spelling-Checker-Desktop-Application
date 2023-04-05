@@ -1,6 +1,5 @@
 package Bangla_Spelling_Checker;
-import java.awt.Color;
-import java.awt.Font;
+import java.awt.*;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -9,7 +8,9 @@ import javax.swing.JLabel;
 import javax.swing.JProgressBar;
 public class introduction extends JFrame {
     JFrame frame,demo;
+
     JLabel image = new JLabel(new ImageIcon("src\\Images\\Logo.png"));
+
     JLabel text = new JLabel("শুদ্ধ বাংলা বানান চর্চা");
     JProgressBar progressBar = new JProgressBar();
     JLabel message = new JLabel();
