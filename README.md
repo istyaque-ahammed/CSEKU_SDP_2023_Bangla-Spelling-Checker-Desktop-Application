@@ -1,0 +1,2 @@
+# CSEKU_SDP_2023_Bangla-Spelling-Checker-Desktop-Application
+Bangla is one of the widely spoken languages in the world, and many people use it as primary language for communication, writing, and reading. However, the lack of proper spell checking tools for Bangla language has been a major issue for the users. Therefore, we propose to develop a Bangla spell checker desktop application using Java language.
